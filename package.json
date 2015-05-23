@@ -1,0 +1,25 @@
+{
+  "name": "nrtv-repository",
+  "version": "0.1.0",
+  "description": "Read and write from git repositories",
+  "main": "repository.js",
+  "dependencies": {
+    "amdefine": "*",
+    "lodash": "*",
+    "js-github": "*",
+    "js-git": "*"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "requirejs": "*",
+    "chai": "*"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/erikpukinskis/nrtv-repository",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikpukinskis/nrtv-repository.git"
+  }
+}
